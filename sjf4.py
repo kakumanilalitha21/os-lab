@@ -1,5 +1,6 @@
+//shortest job first non preemptive
 n=int(input("enter no. of processes"))
-print("enter the process id and burst time\n")
+print("enter the process id and burst time:/n")
 l=[]
 for i in range(n):
     l.append(list(map(int,input().split())))

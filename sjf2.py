@@ -1,3 +1,4 @@
+//shortest job first preemptive
 def findWaitingTime(processes, n, wt): 
     rt = [0] * n
   

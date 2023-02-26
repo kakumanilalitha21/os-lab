@@ -1,3 +1,4 @@
+// priority non preemptive
 n=int(input("enter no of processes:"))
 print("enter processid bt and priority:")
 l=[]

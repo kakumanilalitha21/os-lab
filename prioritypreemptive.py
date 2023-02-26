@@ -1,3 +1,4 @@
+//preemptive priority algorithm
 def findWaitingTime(processes, n, wt):
     wt[0] = 0
     for i in range(1, n):
@@ -9,7 +10,7 @@ def findTurnAroundTime(processes, n, wt, tat):
         tat[i] = processes[i][1] + wt[i]
 
 
-def findavgTime(processes, n):
+def findavgTime(processes,n):
     wt = [0] * n
     tat = [0] * n
 

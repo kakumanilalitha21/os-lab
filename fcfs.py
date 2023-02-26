@@ -1,3 +1,4 @@
+//first come first serve
 nprocess=int(input("enter no of process running in background:"))
 prolist=[]
 for i in range(nprocess):
