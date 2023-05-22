@@ -1,4 +1,4 @@
-//round robin scheduling algorithm
+
 def findWaitingTime(processes, n, bt,wt, quantum):
     rem_bt = [0] * n
     for i in range(n):
